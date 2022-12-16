@@ -20,3 +20,5 @@ I am thankful that learning the Astro framework so far has been hassle-free and 
 I can't wait to learn about adding CSS so I can make this all look pretty. 
 
 For one of my `const` variables I added `wifeAttributes` and was able to make a learning moment cute lol. 
+
+OK I am at the adding CSS stage and I am getting excited. Taiylor's favorite color is purple, so purple this site shall have. 

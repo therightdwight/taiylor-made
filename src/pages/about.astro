@@ -6,8 +6,9 @@ const identity = {
 	country: "USA",
 	occupation: "IT",
 	wife: "Taiylor",
-	wifeAttributes: ["beautiful, ", "funny, ", "and intelligent"],
 };
+
+const wifeAttributes = ["beautiful", "funny", "intelligent"];
 ---
 
 <html lang="en">
@@ -17,6 +18,12 @@ const identity = {
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
+		<style>
+			h1 {
+				color: purple;
+				font-size: 4rem;
+			}
+		</style>
 	</head>
 	<body>
         <a href="/">Home</a>
@@ -27,7 +34,10 @@ const identity = {
         <h2>For You</h2>
         <p>This Christmas I desired to go further than the normal card or letter.</p>
         <p>I decided that I would create something that could display how thankful I am for you.</p>
-		<p>I am truly blessed to have someone that is {identity.wifeAttributes}.</p>
+		<p>I am truly blessed to have someone that is so 
+		<ul>
+			{wifeAttributes.map((wifeAttributes) => <li>{wifeAttributes}</li>)}
+		</ul>		
         <p>You brought fulfillment and joy into my life. I love you more than words alone can say.</p>
 	</body>
 </html>
