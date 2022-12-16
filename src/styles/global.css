@@ -42,13 +42,13 @@ html {
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #ff9776;
+    background-color: #cf80fd;
   }
   
   .expanded {
     display: unset;
   }
-  
+
   /* Use a @media query to define different styles for larger screen sizes */
   @media screen and (min-width: 636px) {
     .nav-links {
