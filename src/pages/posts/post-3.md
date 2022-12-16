@@ -1,10 +1,10 @@
 ---
 title: Third Post
 author: Dwight
-description: "After learning some Astro, I couldn't stop!"
+description: "The Keys to SuCSS"
 image: 
     url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"
-    alt: "Thumbnails of websites from the Astro Showcase site."
+    alt: "Stock picture I didn't feel like changing"
 pubDate: 2022-12-16
 tags: ["astro", "blogging", "project","success"]
 ---
@@ -24,3 +24,5 @@ For one of my `const` variables I added `wifeAttributes` and was able to make a 
 OK I am at the adding CSS stage and I am getting excited. Taiylor's favorite color is purple, so purple this site shall have. 
 
 I got started on the About page, now I am going to add site-wide stuff. 
+
+Holy shit, It's looking good already. I'm going to end up tinkering with it some more to personalize it further, but the jump to plain html, to the styling, was a great moment for me!

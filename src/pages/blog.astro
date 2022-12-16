@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 const pageTitle = "Dev Blog";
 
 const excited = true;
@@ -21,7 +23,7 @@ const goal = 9;
 		<a href="/blog/">Dev Blog</a>
 
 		<h1>{pageTitle}</h1>
-        
+
         {excited && <p>I am excited to both be learning and creating at that the same time!</p>}
         {finished && <p>I finished my project!</p>}
         {goal == 9 ? <p>My goal is to finish in 9 days</p> : <p>My goal is to finish in less than 9 days</p>}
