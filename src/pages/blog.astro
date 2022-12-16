@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = "Dev Blog";
 
@@ -25,7 +26,7 @@ const goal = 9;
 	</head>
 	<body>
 
-        <Navigation />
+        <Header />
 
 		<h1>{pageTitle}</h1>
 
@@ -41,5 +42,6 @@ const goal = 9;
             <li><a href="/posts/post-3">3rd Post</a></li>
         </ul>
 
+        <Footer />
 	</body>
 </html>

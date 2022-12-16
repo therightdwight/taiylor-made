@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
-
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = "Our World";
 ---
@@ -22,8 +22,10 @@ const pageTitle = "Our World";
 	</head>
 	<body>
 
-		<Navigation />
-		
+		<Header />
+
 		<h1>{pageTitle}</h1>
+
+		<Footer />
 	</body>
 </html>

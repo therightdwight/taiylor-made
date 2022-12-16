@@ -26,3 +26,5 @@ OK I am at the adding CSS stage and I am getting excited. Taiylor's favorite col
 I got started on the About page, now I am going to add site-wide stuff. 
 
 Holy shit, It's looking good already. I'm going to end up tinkering with it some more to personalize it further, but the jump to plain html, to the styling, was a great moment for me!
+
+I'm a huge fan of components! The `Navigation` component really cleans up adding the links to the other pages. 
