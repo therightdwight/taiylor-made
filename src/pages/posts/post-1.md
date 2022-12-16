@@ -1,6 +1,6 @@
 ---
 title: 'My First Blog Post'
-pubDate: 2022-12-16
+pubDate: 2022-12-12
 description: 'This is the first post of my new website.'
 author: 'Dwight'
 image:
@@ -10,7 +10,7 @@ tags: ["astro", "blogging", "learning in public", "project"]
 ---
 # My First Blog Post
 
-Published on: 2022-12-16
+Published on: 2022-12-12
 
 Welcome to my _new blog_ about this website I am creating. I wanted to create something special to celebrate my wife and I.
 
@@ -22,7 +22,7 @@ Welcome to my _new blog_ about this website I am creating. I wanted to create so
 
 3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
    
-4. **Making Changes**: As I have gone through the tutorial I have made the necessary changes to alter the site to what I am envisioning. 
+4. **Making Changes**: As Igo through the tutorial I will make the necessary changes to alter the site to what I am envisioning. 
 
 ## What's next
 
