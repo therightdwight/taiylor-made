@@ -1,5 +1,9 @@
 ---
 const pageTitle = "Dev Blog";
+
+const excited = true;
+const finished = false;
+const goal = 9;
 ---
 
 <html lang="en">
@@ -17,8 +21,13 @@ const pageTitle = "Dev Blog";
 		<a href="/blog/">Dev Blog</a>
 
 		<h1>{pageTitle}</h1>
+        
+        {excited && <p>I am excited to both be learning and creating at that the same time!</p>}
+        {finished && <p>I finished my project!</p>}
+        {goal == 9 ? <p>My goal is to finish in 9 days</p> : <p>My goal is to finish in less than 9 days</p>}
+
         <p>How will anyone know how this site came to be?</p>
-        <p>I guess I will add some posts about my journey!</p>
+        <p>I guess I will add some notes about my journey!</p>
         <ul>
             <li><a href="/posts/post-1">1st Post</a></li>
             <li><a href="/posts/post-2">2nd Post</a></li>

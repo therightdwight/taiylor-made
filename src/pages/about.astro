@@ -1,5 +1,13 @@
 ---
 const pageTitle = "About";
+
+const identity = {
+	firstName: "Dwight",
+	country: "USA",
+	occupation: "IT",
+	wife: "Taiylor",
+	wifeAttributes: ["beautiful, ", "funny, ", "and intelligent"],
+};
 ---
 
 <html lang="en">
@@ -13,12 +21,13 @@ const pageTitle = "About";
 	<body>
         <a href="/">Home</a>
         <a href="/about/">About</a>
-		<a href="/blog/">Dev BLog</a>
+		<a href="/blog/">Dev Blog</a>
 
 		<h1>{pageTitle}</h1>
         <h2>For You</h2>
         <p>This Christmas I desired to go further than the normal card or letter.</p>
         <p>I decided that I would create something that could display how thankful I am for you.</p>
+		<p>I am truly blessed to have someone that is {identity.wifeAttributes}.</p>
         <p>You brought fulfillment and joy into my life. I love you more than words alone can say.</p>
 	</body>
 </html>
