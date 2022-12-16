@@ -1,4 +1,5 @@
 ---
+const pageTitle = "About";
 ---
 
 <html lang="en">
@@ -7,15 +8,15 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
         <a href="/">Home</a>
         <a href="/about/">About</a>
 		<a href="/blog/">Dev BLog</a>
 
-		<h1>About</h1>
-        <h1>For You</h1>
+		<h1>{pageTitle}</h1>
+        <h2>For You</h2>
         <p>This Christmas I desired to go further than the normal card or letter.</p>
         <p>I decided that I would create something that could display how thankful I am for you.</p>
         <p>You brought fulfillment and joy into my life. I love you more than words alone can say.</p>
