@@ -9,6 +9,10 @@ const identity = {
 };
 
 const wifeAttributes = ["beautiful", "funny", "intelligent"];
+
+const wifeColor = "purple";
+const fontWeight = "bold";
+const textCase = "capitalize";
 ---
 
 <html lang="en">
@@ -18,10 +22,15 @@ const wifeAttributes = ["beautiful", "funny", "intelligent"];
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
-		<style>
+		<style define:vars={{wifeColor, fontWeight, textCase}}>
 			h1 {
-				color: purple;
+				color: var(--wifeColor);
 				font-size: 4rem;
+			}
+			.attributes {
+				color: var(--wifeColor);
+				font-weight: var(--fontWeight);
+				text-transform: var(--textCase);
 			}
 		</style>
 	</head>
@@ -34,10 +43,10 @@ const wifeAttributes = ["beautiful", "funny", "intelligent"];
         <h2>For You</h2>
         <p>This Christmas I desired to go further than the normal card or letter.</p>
         <p>I decided that I would create something that could display how thankful I am for you.</p>
-		<p>I am truly blessed to have someone that is so 
+		<p>I am truly blessed to have someone that is so:</p> 
 		<ul>
-			{wifeAttributes.map((wifeAttributes) => <li>{wifeAttributes}</li>)}
+			{wifeAttributes.map((wifeAttributes) => <li class="attributes">{wifeAttributes}</li>)}
 		</ul>		
-        <p>You brought fulfillment and joy into my life. I love you more than words alone can say.</p>
+        <p>You continually bring fulfillment and joy into my life. I love you more than words alone can say.</p>
 	</body>
 </html>
