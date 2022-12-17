@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownLayout.astro
 title: Third Post
 author: Dwight
 description: "The Keys to SuCSS"
@@ -28,3 +29,5 @@ I got started on the About page, now I am going to add site-wide stuff.
 Holy shit, It's looking good already. I'm going to end up tinkering with it some more to personalize it further, but the jump to plain html, to the styling, was a great moment for me!
 
 I'm a huge fan of components! The `Navigation` component really cleans up adding the links to the other pages. 
+
+It is now 11:30pm, and I miraculously fixed the site after I broke it. I think I was either adding something incorrectly or trying to call a variable by the wrong name. Either way I had to delete the layout file for the markdown posts and remake it. Thankfully the site began to deploy on Netlify again. 
