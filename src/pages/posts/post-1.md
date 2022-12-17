@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: 'My First Blog Post'
 description: 'This is the first post of my new website.'
 author: 'Dwight'
