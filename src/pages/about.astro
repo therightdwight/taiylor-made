@@ -1,7 +1,5 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About";
 
@@ -19,30 +17,8 @@ const fontWeight = "bold";
 const textCase = "capitalize";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-		<style define:vars={{wifeColor, fontWeight, textCase}}>
-			h1 {
-				color: var(--wifeColor);
-				font-size: 4rem;
-			}
-			.attributes {
-				color: var(--wifeColor);
-				font-weight: var(--fontWeight);
-				text-transform: var(--textCase);
-			}
-		</style>
-	</head>
-	<body>
+<BaseLayout>
 
-        <Header />
-
-		<h1>{pageTitle}</h1>
         <h2>For You</h2>
         <p>This Christmas I desired to go further than the normal card or letter.</p>
         <p>I decided that I would create something that could display how thankful I am for you.</p>
@@ -51,9 +27,5 @@ const textCase = "capitalize";
 			{wifeAttributes.map((wifeAttributes) => <li class="attributes">{wifeAttributes}</li>)}
 		</ul>		
         <p>You continually bring fulfillment and joy into my life. I love you more than words alone can say.</p>
-		<Footer />
-		<script>
-			import "../scripts/menu.js";
-		</script>
-	</body>
-</html>
+		
+</BaseLayout>
