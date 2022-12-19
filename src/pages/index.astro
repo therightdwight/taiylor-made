@@ -4,6 +4,7 @@ import Greeting from '../components/Greeting.jsx';
 const pageTitle = "Our World";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>What We have created</h2>
   <Greeting client:load messages={["Hello", "Hallo", "Hola", "Habari"]} />
+  <h2>What We have created</h2>
+  <img loading="lazy" width="689" height="451" alt="Picture of our family" src="/images/ourfamily.webp">
 </BaseLayout>
