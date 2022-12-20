@@ -9,6 +9,9 @@ html {
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
+    background-position: center;
+    background-size: cover;
+    background-color: #B6BABB;
   }
   
   * {
@@ -90,6 +93,8 @@ html {
 .dark body {
   background-color: #0d0950;
   color: #fff;
+  background-position: center;
+  background-size: cover;
 }
 
 .dark .nav-links a {
@@ -100,4 +105,13 @@ img:not(.no-shadow) {
   max-width: 100%;
   height: auto;
   box-shadow: 0 0 32px #0000004d;
+}
+
+img {
+  border-radius: 8px; 
+  margin-bottom: 4px; 
+  margin-top: 4px; 
+  width: fit-content; 
+  height: fit-content; 
+  object-fit: fill;
 }
