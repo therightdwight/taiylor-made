@@ -84,6 +84,11 @@ html {
       display: inline-block;
       padding: 15px 20px;
     }
+
+    .homepic {
+      width: 60%;
+      height: auto;
+    }
   
   }
 .hamburger {
@@ -114,4 +119,18 @@ img {
   width: fit-content; 
   height: fit-content; 
   object-fit: fill;
+}
+
+.home1 {
+  background-color: #B6A7DC;
+  border-radius: 4px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  width: auto;
+}
+
+.homepic {
+  border-radius: 4px;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 1rem;
+  width: fit-content;
 }
